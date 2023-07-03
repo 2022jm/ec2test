@@ -1,1 +1,4 @@
 /Users/jimmyulloa/Downloads/ec2test/WebApp/ filter=lfs diff=lfs merge=lfs -text
+/Users/jimmyulloa/Downloads/ec2test/WebApp/database filter=lfs diff=lfs merge=lfs -text
+/Users/jimmyulloa/Downloads/ec2test/WebApp/explorer filter=lfs diff=lfs merge=lfs -text
+/Users/jimmyulloa/Downloads/ec2test/WebApp/explorer-api filter=lfs diff=lfs merge=lfs -text
