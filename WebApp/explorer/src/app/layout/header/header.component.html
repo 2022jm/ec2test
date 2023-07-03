@@ -1,0 +1,25 @@
+<div class="navigator">
+    <div class="logo">E</div>
+    <app-separator [height]="14"></app-separator>
+    <div class="title">Biosamples</div>
+    <app-separator [height]="14"></app-separator>
+    <div class="title">Questionnaires</div>
+</div>
+
+<div class="search-box">
+    <select name="options" id="select-box">
+        <option value="all">All</option>
+        <option value="participant">Participant</option>
+    </select>
+
+    <img id="search-icon" src="assets/images/icons/search.png">
+    <input id="search-input" type="text" placeholder="Search in Explorer">
+</div>
+
+<div class="icons">
+    <img id="alarm" src="assets/images/icons/alarm.png">
+    <app-separator [height]="14"></app-separator>
+    <img id="alarm" src="assets/images/icons/user_icon.png">
+    <app-separator [height]="14"></app-separator>
+    <img (click)="logout()" id="alarm" src="assets/images/icons/power.png">
+</div>

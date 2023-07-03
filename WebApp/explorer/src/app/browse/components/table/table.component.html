@@ -1,0 +1,16 @@
+<!-- TODO: change the height to 260px; -->
+<ag-grid-angular
+    style="width: 100%; height: 100%;; font-size: 12px; box-sizing: border-box;"
+    class="ag-theme-alpine"
+    [rowData]="data$ | async"
+    [columnDefs]="colDef$ | async"
+    [defaultColDef]="defaultColDef"
+    [pagination]="true"
+    [paginationPageSize]="5"
+    [suppressDragLeaveHidesColumns]="true"
+    [rowSelection]='rowSelection'
+    (gridReady)="onGridReady($event)"
+    >
+</ag-grid-angular>
+<!-- <button (click)="showPagination()">button
+</button> -->

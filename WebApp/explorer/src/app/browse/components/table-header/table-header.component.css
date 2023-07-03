@@ -1,0 +1,68 @@
+#table-header {
+    background-color: var(--background-white);
+    border: var(--border-box);
+    height: 2.5rem;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    align-content: center;
+    overflow: hidden;
+}
+
+#table-header #title {
+    font-size: var(--grid-header-font-size);
+    color: var(--brand-blue);
+    font-weight: 400;
+    margin: auto;
+    margin-left: 1.4rem;
+}
+
+#table-header #menu{
+    display: grid;
+    grid-template-columns: min-content min-content min-content min-content min-content min-content min-content min-content;
+    place-content: end;
+    align-items: center;
+}
+
+#table-header img#filter {
+    /* different width of the image */
+    width: 16px;
+}
+
+#table-header #menu img#download {
+    width: var(--icon-width);
+}
+
+#table-header #menu img#download:hover {
+    cursor: pointer;
+}
+
+#table-header #menu ng-select {
+    width: 14rem;
+    border: var(--border-input);
+    border-radius: var(--border-radius);
+    height: 2rem;
+}
+
+#table-header #menu > *:not(app-separator) {
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+div#pagination {
+    display: grid;
+    grid-template-columns: min-content min-content min-content min-content min-content min-content min-content;
+}
+
+div#pagination p {
+    margin-right: 0.5rem;
+}
+
+img#previousPag {
+    width: var(--icon-width);
+    transform: scaleX(-1);
+    margin-right: 0.5rem;
+}
+
+img#nextPag {
+    width: var(--icon-width);
+}

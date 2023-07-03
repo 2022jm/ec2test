@@ -1,0 +1,9 @@
+<p>create-user works!</p>
+<input type="text" placeholder="Username" [(ngModel)]="username">
+<input type="text" placeholder="Name" [(ngModel)]="name">
+<input type="text" placeholder="Surname" [(ngModel)]="surname">
+<input type="email" placeholder="Email" [(ngModel)]="email">
+<input type="password" placeholder="Password" [(ngModel)]="password">
+<input type="checkbox" [ngModel]="isAdmin">Admin
+
+<button type="submit" (click)="createUser()">Submit</button>

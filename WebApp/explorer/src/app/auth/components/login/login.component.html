@@ -1,0 +1,17 @@
+<div id="login">
+  <span></span>
+
+  <span>
+    <img id="logo" src="assets/images/STALICLA_logo_color.png">
+  
+    <p id="title">Sign in</p>
+    <form class="custom-form" method="post">
+        <input id="email" type="email" class="input-box" [(ngModel)]="email" placeholder="Email" required="required" [ngModelOptions]="{standalone: true}"/>
+        <input id="password" type="password" class="input-box" [(ngModel)]="password" placeholder="Password" required="required" [ngModelOptions]="{standalone: true}"/>
+        <label><input id="checkbox" type="checkbox"><label for="checkbox"></label><span class="checkbox-text">Remember me</span></label>
+        <button id="submit-button" type="submit" (click)="login()">SIGN IN</button>
+    </form>
+  </span>
+
+  <span></span>
+</div>
