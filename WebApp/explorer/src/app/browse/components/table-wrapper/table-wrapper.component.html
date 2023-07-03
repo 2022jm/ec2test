@@ -1,5 +1,0 @@
-<div id="container">
-    <app-table-header [title]="title" (exportCsvClicked)="onExportCsvClicked($event)" [visibleColumns$]="visibleColumns$.asObservable()" (columnsSelectionChanged)="onColumnSelectionChanged($event)"></app-table-header>
-
-    <app-table [data$]="data$" [colDef$]="colDef$" [exportCsv$]="exportCsv$.asObservable()" [visibleColumnsAfterUpdate$]="visibleColumnsAfterUpdate$.asObservable()"></app-table>
-</div>
