@@ -30,13 +30,13 @@ variable "instance_type" {
 variable "access_key" {
   description = "Clave de acceso de AWS"
   type        = string
-  default     = "AKIA4UUNKZW3XHEQM5E6"
+  default     = "AWS_ACCESS_KEY_ID"
 }
 
 variable "secret_key" {
   description = "Clave secreta de AWS"
   type        = string
-  default     = "DE3gSk+rfab3WCpKHQsMVwMeMljcgDmnaOju/rcB"
+  default     = "AWS_SECRET_ACCESS_KEY"
 }
 
 variable "ssh_username" {
